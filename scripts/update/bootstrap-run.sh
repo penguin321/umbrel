@@ -43,7 +43,7 @@ fi
 if ! is_home
 then
   echo "Custon Linux install detected"
-  fail_update "umbrelOS 1.0 is not yet supported for custom Linux installs: https://link.umbrel.com/linux-update"
+  #fail_update "umbrelOS 1.0 is not yet supported for custom Linux installs: https://link.umbrel.com/linux-update"
 fi
 
 # If we get here we're running on an Umbrel Home
